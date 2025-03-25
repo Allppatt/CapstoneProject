@@ -1,0 +1,102 @@
+ body  {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-image: url('gambar/2.png');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            max-height: 100vh;
+            
+        }
+    /* background image untuk form */
+.sign-up, .log-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-image: url('gambar/3.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  border-radius: 10px;
+}
+
+/* styling untuk form */
+.form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    height: 20px;
+    background-color: #41644A;
+   
+}
+.form button{
+    width: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #163020;
+    border: solid 2px white;
+}
+.form h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+}
+.form{
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+
+/* 
+untuk teks kembali-> di tag a */
+.sign-up a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.log-in a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+   /* renposive masih ngawur */
+@media only screen and (max-width: 768px) {
+   body{
+    background-size: 100% 100%; /* ubah ukuran background menjadi 100% */
+    background-position: center;
+   }
+  .sign-up, .log-in {
+    background-size: 90% 40%; /* ubah ukuran background menjadi 100% */
+    background-position: center; /* tetapkan posisi background */
+  }
+  .form{
+    padding-right: 10px;
+    width: 50%;
+    height: 50%;
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .form input{
+    width: 50%;
+   padding: 1px;
+   margin:0px;
+ 
+  }
+  p{
+    font-size: smaller;
+    font-weight: bold
+  };
+}
