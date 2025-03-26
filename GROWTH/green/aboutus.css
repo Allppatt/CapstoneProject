@@ -129,7 +129,7 @@ body {
 
 /* Container1 */
 .container {
-  margin-top: 60px;
+  margin-top: 900px;
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
@@ -181,7 +181,9 @@ body {
 
 .content1-image {
   flex: 1;
+  margin-bottom: 8%;
 }
+
 
 .content1-image img {
   width: 90%;
@@ -192,7 +194,7 @@ body {
 
 /* Mission Section */
 .visi-section {
-  background-color: #064e3b;
+  background-color: #163020;
   color: white;
   padding: 1.5rem;
   border-radius: 0.75rem;
@@ -215,7 +217,7 @@ body {
   padding: 1.5rem;
   border-radius: 0.75rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  border: 2px solid black;
+  border: 3px solid #163020;
 }
 .misi-title {
   color: #fbbf24;
@@ -230,6 +232,7 @@ body {
 /*footer*/
       /* Footer Styling */
       footer {
+        margin-top: 130px;
           background-color: #f9f9f9;
           padding: 20px;
           border-top: 4px solid #ffbf00e7;
